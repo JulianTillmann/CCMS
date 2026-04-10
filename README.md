@@ -21,14 +21,14 @@ Wait for the installation to complete — the extension will appear in the list 
 
 For connecting CCMS to the AdminCenter APIs of your customers, there are two ways:
 
-### Explicit AppRegistration
+### Explicit App registration
 
 For environments in your own tenants, without GDAP access or if you prefer, you can set up explicit App Registrations in each of the tenants.
 
 see the Microsoft Learn Documentation 
 [[https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-center-api](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-center-api#authenticate-using-service-to-service-microsoft-entra-apps-client-credentials-flow)]
 
-### Shared AppRegistration
+### Shared App registration
 
 If you have set up GDAP you can just set up a central App Registration in your own tenant and each customer just has to grant Access via "Authorized Microsoft Entra Apps"
 
