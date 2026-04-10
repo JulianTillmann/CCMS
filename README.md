@@ -32,7 +32,7 @@ See the [Microsoft Learn documentation](https://learn.microsoft.com/en-us/dynami
 If you have set up GDAP you can just set up a central App Registration in your own tenant and each customer just has to grant access via "Authorized Microsoft Entra Apps".
 
 see the How To from the BCTech Repo
-[https://github.com/microsoft/BCTech/blob/master/samples/AdminCenterApi/Authentication.md]
+[BC TEch AdminCenter API Authentication](https://github.com/microsoft/BCTech/blob/master/samples/AdminCenterApi/Authentication.md)
 
 ## ⚙ Set Up D365BC Entra Tenants
 
