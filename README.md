@@ -25,8 +25,7 @@ For connecting CCMS to the AdminCenter APIs of your customers, there are two way
 
 For environments in your own tenants, without GDAP access or if you prefer, you can set up explicit App Registrations in each of the tenants.
 
-see the Microsoft Learn Documentation 
-[[https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-center-api](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-center-api#authenticate-using-service-to-service-microsoft-entra-apps-client-credentials-flow)]
+See the [Microsoft Learn documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-center-api#authenticate-using-service-to-service-microsoft-entra-apps-client-credentials-flow)
 
 ### Shared App registration
 
