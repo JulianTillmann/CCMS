@@ -37,7 +37,7 @@ see the How To from the BCTech Repo
 
 ## ⚙ Set Up D365BC Entra Tenants
 
-In the CCMS Page "D365BC Entra Tenant" set up an entry for each tenant and enter Tenant ID, App Registration Client ID and Client Secret in the appropriate fields.
+In the CCMS Page "D365BC Entra Tenants" set up an entry for each tenant and enter Tenant ID, App Registration Client ID and Client Secret in the appropriate fields.
  
 ## 📌 Project Vision
 
