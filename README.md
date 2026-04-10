@@ -19,7 +19,7 @@ Wait for the installation to complete — the extension will appear in the list 
  
 ## 🔗 Setup BC AdminCenter API Connection App Registration
 
-For connecting CCMS to the AdminCenter APIs of you customer's there are two ways:
+For connecting CCMS to the AdminCenter APIs of your customers, there are two ways:
 
 ### Explicit AppRegistration
 
