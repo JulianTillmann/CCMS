@@ -17,6 +17,28 @@ Review the version and dependencies, then click Deploy.
 
 Wait for the installation to complete — the extension will appear in the list once deployed.
  
+## 🔗 Setup BC AdminCenter API Connection App Registration
+
+For connecting CCMS to the AdminCenter APIs of you customer's there are two ways:
+
+### Explicit AppRegistration
+
+For environments in your own tenants, without GDAP access or if you prefer, you can set up explicit App Registrations in each of the tenants.
+
+see the Microsoft Learn Documentation 
+[[https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-center-api](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-center-api#authenticate-using-service-to-service-microsoft-entra-apps-client-credentials-flow)]
+
+### Shared AppRegistration
+
+If you have set up GDAP you can just set up a central App Registration in your own tenant and each customer just has to grant Access via "Authorized Microsoft Entra Apps"
+
+see the How To from the BCTech Repo
+[https://github.com/microsoft/BCTech/blob/master/samples/AdminCenterApi/Authentication.md]
+
+## ⚙ Set Up D365BC Entra Tenants
+
+In the CCMS Page "D365BC Entra Tenant" set up an entry for each tenant and enter Tenant ID, App Registration Client ID and Client Secret in the appropriate fields.
+ 
 ## 📌 Project Vision
 
 In a cloud-first world, partners should not need to log into customer environments for everyday maintenance tasks.  
