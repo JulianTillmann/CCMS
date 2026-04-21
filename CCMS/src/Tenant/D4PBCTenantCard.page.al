@@ -134,6 +134,7 @@ page 62011 "D4P BC Tenant Card"
             }
             action(Environments)
             {
+                ApplicationArea = All;
                 Caption = 'Environments';
                 Image = ViewDetails;
                 RunObject = page "D4P BC Environment List";
@@ -143,6 +144,7 @@ page 62011 "D4P BC Tenant Card"
             }
             action(PTEObjectRanges)
             {
+                ApplicationArea = All;
                 Caption = 'PTE Object Ranges';
                 Image = NumberSetup;
                 RunObject = page "D4P PTE Object Ranges";
@@ -152,6 +154,7 @@ page 62011 "D4P BC Tenant Card"
             }
             action(Capacity)
             {
+                ApplicationArea = All;
                 Caption = 'Capacity';
                 Image = Capacity;
                 ToolTip = 'View capacity information for all environments.';
